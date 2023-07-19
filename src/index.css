@@ -253,7 +253,6 @@ ul {
   margin-top: 1rem;
 }
 /* ============= PROJECT CSS =============== */
-
 .menu {
   padding: 5rem 0;
 }
@@ -262,9 +261,10 @@ ul {
   margin: 2rem 0 4rem 0;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 1rem;
+  flex-wrap: wrap;
 }
+
 .section-center {
   width: 90vw;
   margin: 0 auto;
@@ -277,43 +277,48 @@ ul {
   background: var(--white);
   border-radius: var(--borderRadius);
 }
-.menu-item .img {
+
+.menu-item img {
   height: 15rem;
-  border-top-right-radius: var(--borderRadius);
   border-top-left-radius: var(--borderRadius);
+  border-top-right-radius: var(--borderRadius);
 }
+
 .item-info {
   padding: 1.5rem;
 }
+
 .item-info header {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 1rem;
   margin-bottom: 1.25rem;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .item-info h5 {
   font-weight: 500;
 }
+
 .item-price {
   background: var(--primary-500);
   color: var(--white);
   padding: 0.25rem 0.5rem;
-  letter-spacing: var(--letterSpacing);
   border-radius: var(--borderRadius);
+  letter-spacing: var(--letterSpacing);
 }
 
 .item-text {
-  line-height: 2;
   color: var(--grey-500);
+  line-height: 2;
+}
+
+.menu-item {
+  max-width: 25rem;
 }
 
 .section-center {
   justify-items: center;
-}
-.menu-item {
-  max-width: 25rem;
 }
 
 @media screen and (min-width: 992px) {
@@ -322,6 +327,7 @@ ul {
     align-items: start;
   }
 }
+
 @media screen and (min-width: 1170px) {
   .section-center {
     width: 95vw;
